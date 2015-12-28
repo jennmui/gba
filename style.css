@@ -15,6 +15,7 @@ body, html {
 }
 
 h1 {
+  color: #2928ff;
   font-family: 'Asap', sans-serif;
   font-size: 5em;
   font-style: italic;
@@ -24,5 +25,6 @@ h1 {
 }
 
 h2 {
+  color: #ff52e8;
   font-family: Arial Black, sans-serif;
 }

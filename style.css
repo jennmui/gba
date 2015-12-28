@@ -15,16 +15,38 @@ body, html {
 }
 
 h1 {
+  animation: rainbow 6s infinite linear;
+  animation-delay: 2s;
+  background: -webkit-linear-gradient(0deg, #2928ff 40%, #85e367 40%, #85e367 45%, #ff52e8 45%, #ff52e8 50%, #ff0151 50%, #ff0151 55%, #f9e52e 55%, #f9e52e 60%, #2928ff 60%);
+  background-position: 300px;
   color: #2928ff;
   font-family: 'Asap', sans-serif;
   font-size: 5em;
   font-style: italic;
   font-weight: 700;
   letter-spacing: -5px;
+  left: 50%;
   margin-bottom: 0;
+  margin-left: -500px;
+  opacity: 1;
+  position: absolute;
+  top: 25%;
+  width: 1000px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transform: skew(-5deg);
 }
 
 h2 {
   color: #ff52e8;
   font-family: Arial Black, sans-serif;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: -290px;
+  }
+  25% {
+    background-position: 300px;
+  }
 }
